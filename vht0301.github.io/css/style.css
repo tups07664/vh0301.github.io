@@ -1,0 +1,31 @@
+.title {
+    background: url('../img/bg.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 4rem 0;
+    color: white
+}
+.title h1 {
+    line-height: 2.5rem;
+}
+.title p {
+    line-height: 1.5rem;
+    opacity: .6;
+}
+.lines {
+    background: #dfdfdf;
+    margin-bottom: 2rem;
+}
+.lines .breadcrumb {
+    margin-bottom: 0;
+    background: none;
+    padding: .75rem 0;
+}
+.shop figure {
+    /* border: 1px solid #dfdfdf; */
+    padding: 1rem
+}
+.shop figure:hover {
+    box-shadow: 0 0 15px rgba(179, 179, 179, 0.75);
+
+}
